@@ -1,0 +1,82 @@
+/* WeatherDashboard.css */
+
+.weather-container {
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #121212, #1e1e1e);
+  font-family: "Arial", sans-serif;
+  color: #e0e0e0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff9800;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 12px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-bar button:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: auto;
+}
+
+.weather-details h2 {
+  color: #ff9800;
+  font-size: 24px;
+}
+
+.weather-details p {
+  font-size: 18px;
+  margin: 5px 0;
+}
