@@ -7,7 +7,7 @@ const MovieSearchApp = () => {
 
   const fetchMovies = async () => {
     if (!query) return;
-    const response = await fetch(`https://www.omdbapi.com/?s=${query}&apikey=6e78f7fd`);
+    const response = await fetch(`https://www.omdbapi.com/?s=${query}&apikey=c6e057a`);
 
     const data = await response.json();
     if (data.Search) {
