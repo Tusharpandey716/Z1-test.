@@ -36,3 +36,18 @@ A simple and visually appealing web application that showcases a collection of c
 - 🔍 Search for specific cat breeds or images
 - 🎨 Responsive design for seamless viewing on all devices
 - ⚡ Fast performance and smooth user experience
+
+
+# 🌦️ Weather Dashboard App
+
+A modern and interactive weather dashboard that provides real-time weather updates for any city worldwide.
+
+## 🌐 Live Demo
+- [Weather Dashboard App](https://weather-dashboard-dodo.netlify.app/)
+
+## 📌 Features
+- 🌍 Search for weather updates by city name
+- ☀️ Display current weather conditions, temperature, humidity, and wind speed
+- 📅 5-day weather forecast
+- 🎨 Responsive and user-friendly interface
+- ⚡ Fast and accurate weather data
